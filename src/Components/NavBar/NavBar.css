@@ -1,0 +1,43 @@
+.MB{
+    font-family: "Tiny5", sans-serif;
+  color: aliceblue;
+  background-color: #333;
+}
+nav{
+    background-color: #333;
+}
+.navbar-nav{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 6rem;
+    padding-right: 6rem;
+    
+    .Link{
+        
+        letter-spacing: 3px;
+        color: #fff;
+    }
+}
+.navbar-toggler{
+    background-color: #4c7779;
+    border-style: 2px solid black;
+}
+
+
+@media only screen and (max-width: 575px){
+    .navbar {
+        padding-left: 3rem;
+        padding-right: 1rem;
+    }
+    .Link{
+        font-size: 9px;
+    }
+    .navbar-nav{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 90%;
+    }
+}
