@@ -1,10 +1,8 @@
 .MB{
-    font-family: "Tiny5", sans-serif;
-  color: aliceblue;
-  background-color: #333;
+  width: 6rem;
 }
 nav{
-    background-color: #333;
+ background-color: rgb(170, 116, 133);
 }
 .navbar-nav{
     width: 100%;
@@ -17,18 +15,18 @@ nav{
     .Link{
         
         letter-spacing: 3px;
-        color: #fff;
+        color: #333;
     }
 }
 .navbar-toggler{
-    background-color: #4c7779;
-    border-style: 2px solid black;
+    background-color: #dab5d8;
+    border-style: 2px solid rgb(14, 12, 12);
 }
 
 
 @media only screen and (max-width: 575px){
     .navbar {
-        padding-left: 3rem;
+        padding-left: 1rem;
         padding-right: 1rem;
     }
     .Link{

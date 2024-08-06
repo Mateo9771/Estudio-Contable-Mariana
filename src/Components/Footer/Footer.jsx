@@ -2,7 +2,7 @@ import React from 'react'
 import './Footer.css'
 import { Link } from 'react-scroll'
 import { CiLinkedin } from "react-icons/ci";
-import { FaGithub } from "react-icons/fa";
+
 
 const Footer = () => {
   return (

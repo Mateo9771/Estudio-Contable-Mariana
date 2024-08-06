@@ -1,0 +1,30 @@
+.ServicesContainer{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(238, 226, 236);
+    .Services{
+        margin-top: 3rem;
+        gap: 4rem;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        .ContainerButton{
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 2rem;
+            .ButtonService{
+                text-align: center;
+                width: 13rem;
+                height: 10rem;
+                border: 0px;
+                border-radius: 10px;
+                margin-bottom: 3rem;
+                h3{
+                    font-size: 20px;
+                }
+            }
+        }
+        
+    }
+}
