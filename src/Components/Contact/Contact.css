@@ -14,7 +14,7 @@
 .contac-form{
     width: 35rem;
     padding: 3rem;
-    background-color: rgb(170, 116, 133);
+    background-color: rgba(245, 245, 220, 0.918);
     border-radius: 3rem;
     .li-form{
         display: flex;
@@ -23,12 +23,19 @@
         input{
             border-radius: 5px;
             height: 2rem;
+            border: 1px;
         }
     }
     .input{
         margin-top: 1rem;
         width: 29rem;
         height: 4rem;
+        border: 2px;
+        background-color: rgb(216, 216, 158);
+    }
+    .input:hover{
+        background-color: rgba(224, 224, 204, 0.644);
+        transition: 1s;
     }
 }
 

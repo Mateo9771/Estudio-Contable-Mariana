@@ -8,8 +8,8 @@
     align-items: center;
     z-index: 1000;
     flex-wrap: wrap;
-    color: #fff;
-    background-color: #333;
+    color: #333;
+    background-color: rgb(179, 150, 160);
     .BlockFooter{
         padding: 2rem;
         width: 25rem;
@@ -20,7 +20,7 @@
         justify-content: center;
         height: 10rem;
         a{
-            color: #fff;
+            color: #333;
         }   
     }
 }

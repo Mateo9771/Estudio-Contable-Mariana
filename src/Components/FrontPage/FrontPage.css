@@ -7,7 +7,7 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 90vh;
+    height: 100vh;
     .FrontPage{
         display: flex;
         align-items: center;
@@ -22,8 +22,7 @@
 
 @media only screen and (max-width: 575px){
     .FrontPageContainer{
-      height: 80vh !important;
-      background-image:  url("../../assets/IMGMB.jpg") !important;
+      background-image:  url("../../assets/IMGMB.webp") !important;
       display: flex;
       justify-content: end !important;
       align-items: start !important;
