@@ -1,13 +1,15 @@
 .ServicesContainer{
     display: flex;
     justify-content: center;
-    background-color: rgb(238, 226, 236);
+    background-color: #f4eff0;
     .Services{
         margin-top: 3rem;
         gap: 4rem;
         display: flex;
         justify-content: center;
         flex-wrap: wrap;
+        flex-direction: column;
+        text-align: center;
         .ContainerButton{
             display: flex;
             justify-content: center;
@@ -20,14 +22,14 @@
                 border: 0px;
                 border-radius: 10px;
                 margin-bottom: 3rem;
-                background-color: rgba(245, 245, 220, 0.918);
+                background-color: #d8c9cd;
                 h3{
                     font-size: 20px;
                 }
             }
             .ButtonService:hover{
-                box-shadow: inset -6.5em 0 0 0 white, 
-                inset 6.5em 0 0 0 white, 10px 5px 10px rgba(255, 217, 0, 0.671);
+                box-shadow: inset -6.5em 0 0 0 #eae1e4, 
+                inset 6.5em 0 0 0 #eae1e4, 0px 5px 10px #58434d;
                 transition: 0.5s;
             }
         }

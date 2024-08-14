@@ -12,7 +12,7 @@ const Services = () => {
     
     Swal.fire({
       title: title,
-      text:  description,
+      html:  description.trim(),
       icon: 'info',
       confirmButtonText: "OK",
     })
@@ -23,38 +23,38 @@ const Services = () => {
       <div className='Services col-9'>
       <h1>Servicios</h1>
       <div className='ContainerButton'>
-        <button className='ButtonService' onClick={() => handleButtonClick(  'Monotributistas',
+        <button className='ButtonService' onClick={() => handleButtonClick('Monotributistas',
               `
-              Asesoramiento,
-              Alta/Baja,
-              Recategorización,
-              Factura Electrónica,
-              Planes de Pagos,
+              Asesoramiento, <br/> 
+              Alta/Baja,<br/>
+              Recategorización,<br/>
+              Factura Electrónica,<br/>
+              Planes de Pagos,<br/>
               Ingresos Brutos.
               `)}><TiBusinessCard size="4rem"/> <h3>Monotributistas</h3></button>
         <button className='ButtonService'  onClick={() => handleButtonClick('Responsables inscriptos',
-          `Alta/baja,
-          Autónomos,
-          Facturación,
-          Liquidación DDJJ mensuales (IVA, Ingresos Brutos),
-          Liquidaciones DDJJ anuales (Impto. Ganancias, Ingresos Brutos),
-          Regímenes de información.
+          `Alta/baja,<br/>
+          Autónomos,<br/>
+          Facturación,<br/>
+          Liquidación DDJJ mensuales (IVA, Ingresos Brutos),<br/>
+          Liquidaciones DDJJ anuales (Impto. Ganancias, Ingresos Brutos),<br/>
+          Regímenes de información.<br/>
           `)}><ImUserTie size="4rem" /> <h3>Responsable inscripto</h3></button>
         <button className='ButtonService'  onClick={() => handleButtonClick('Sociedades',
-          `Inscripción,
-          Liquidación de DDJJ (mensuales y anuales),
-          Regímenes de información,
-          Armado de balances,
+          `Inscripción,<br/>
+          Liquidación de DDJJ (mensuales y anuales),<br/>
+          Regímenes de información,<br/>
+          Armado de balances,<br/>
           Registraciones contables.
           `)}><IoBusinessSharp size="4rem" /> <h3>Sociedades</h3></button>
         <button className='ButtonService'  onClick={() => handleButtonClick('Otros Servicios',
-          `Asesoramiento integral al momento de iniciar tu emprendimiento,
-          Planes de pago,
-          Certificaciones de ingresos o de origen de fondos,
-          Fiscalizaciones,
-          Empleados de casas particulares,
-          Siradig F572,
-          DDJJ Ganancias 4° categoría,
+          `Asesoramiento integral al momento de iniciar tu emprendimiento,<br/>
+          Planes de pago,<br/>
+          Certificaciones de ingresos o de origen de fondos,<br/>
+          Fiscalizaciones,<br/>
+          Empleados de casas particulares,<br/>
+          Siradig F572,<br/>
+          DDJJ Ganancias 4° categoría,<br/>
           DDJJ Bienes Personales.
           `)}><MdBusinessCenter size="4rem" /> <h3>Otros servicios</h3></button>
         </div>

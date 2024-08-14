@@ -8,7 +8,7 @@ const Contact = () => {
             <h1>Contacto</h1>
         <div class="contacto">
             <div class="contac-form">
-            <form action="https://formsubmit.co/b7ad07b696e0fdf71ce602168e999695" method="POST">
+            <form action="https://formsubmit.co/marianabaldonifigueira@gmail.com" method="POST">
                 <div class="li-form">
             <label htmlFor="Nombre">Nombre</label>
             <input type="text" name="name" required/>

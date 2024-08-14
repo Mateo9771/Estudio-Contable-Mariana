@@ -1,7 +1,7 @@
 .FormContact{
     display: flex;
     justify-content: center;
-    background-color: rgb(238, 226, 236);
+    background-color: #f4eff0;
     .Contact{  
         display: flex;
         justify-content: center;
@@ -14,7 +14,7 @@
 .contac-form{
     width: 35rem;
     padding: 3rem;
-    background-color: rgba(245, 245, 220, 0.918);
+    background-color: #d8c9cd;
     border-radius: 3rem;
     .li-form{
         display: flex;
@@ -31,11 +31,14 @@
         width: 29rem;
         height: 4rem;
         border: 2px;
-        background-color: rgb(216, 216, 158);
+        background-color: #916d7b;
     }
     .input:hover{
-        background-color: rgba(224, 224, 204, 0.644);
-        transition: 1s;
+        /*background-color: rgba(224, 224, 204, 0.644);
+        transition: 1s;*/
+        box-shadow: inset -15em 0 0 0 #eae1e4, 
+                inset 15em 0 0 0 #eae1e4, 0px 5px 10px #58434d;
+                transition: 0.5s;
     }
 }
 
